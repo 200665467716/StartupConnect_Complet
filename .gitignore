@@ -1,0 +1,21 @@
+# Ignorer pour le backend (Laravel)
+/backend/vendor
+/backend/node_modules
+/backend/.env
+/backend/.env.backup
+/backend/storage/*.key
+/backend/public/hot
+/backend/public/storage
+/backend/public/build
+/backend/bootstrap/cache
+
+# Ignorer pour le frontend (si a ses propres node_modules ou build)
+/frontend/node_modules
+/frontend/dist # ou /frontend/build, /frontend/out, etc. selon votre framework JS
+# Ajoutez ici les autres fichiers spécifiques à ignorer pour votre frontend
+
+# Autres fichiers/dossiers courants à ignorer
+.idea
+.vscode
+npm-debug.log
+yarn-error.log
